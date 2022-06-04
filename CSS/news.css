@@ -1,0 +1,214 @@
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url(/Fonts/static/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: 'Montserrat-Light';
+    src: url(/Fonts/static/Montserrat-Light.ttf);
+}
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url(/Fonts/static/Montserrat-Medium.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.nav {
+  background-color: rgb(68, 68, 68);
+  height: 120px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+.nav_logo {
+  padding: 10px;
+}
+.nav_logo img {
+  width: 100px;
+  height: auto;
+}
+.main_text {
+  margin-top: 35px;
+}
+.main_text a {
+  font-family: Montserrat-Medium;
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.main_text a:hover {
+  color: rgb(117, 117, 117);
+}
+.news {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.news h1 {
+  font-family: Montserrat-Bold;
+}
+.vkyout {
+  padding: 10px; 
+  padding-top: 30px;
+}
+.vkyout a {
+  margin-right: 10px;
+}
+.vkyout img {
+  width: 50px;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
+  margin-left: 30px;
+  width: 340px;
+  margin-bottom: 50px;
+}
+.card a {
+  text-decoration: none;
+  font-family: Montserrat-Medium;
+}
+.card a:hover {
+  color: rgb(0, 66, 209);
+}
+.card img{
+  width: 360px;
+}
+.titop {
+  display: flex;
+  justify-content: center;
+}
+.custom-btn3 {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+  7px 7px 20px 0px rgba(0,0,0,.1),
+  4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+  .btn-3 {
+  background: rgb(117, 117, 117);
+  background: linear-gradient(0deg, rgb(104, 104, 104) 0%, rgb(103, 103, 104) 100%);
+  width: 130px;
+  height: 40px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  
+}
+  .btn-3 span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+  .btn-3:before,
+  .btn-3:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 0;
+  background: rgb(105, 105, 105);
+  transition: all 0.3s ease;
+}
+  .btn-3:before {
+  height: 0%;
+  width: 2px;
+}
+  .btn-3:after {
+  width: 0%;
+  height: 2px;
+}
+  .btn-3:hover{
+  background: transparent;
+  box-shadow: none;
+}
+  .btn-3:hover:before {
+  height: 100%;
+}
+.btn-3:hover:after {
+  width: 100%;
+}
+.btn-3 span:hover{
+  color: rgb(114, 115, 116);
+}
+.btn-3 span:before,
+.btn-3 span:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  background: rgb(93, 93, 94);
+  transition: all 0.3s ease;
+}
+  .btn-3 span:before {
+  width: 2px;
+  height: 0%;
+}
+  .btn-3 span:after {
+  width: 0%;
+  height: 2px;
+}
+  .btn-3 span:hover:before {
+  height: 100%;
+}
+  .btn-3 span:hover:after {
+  width: 100%;
+}
+.button_ons {
+  margin-bottom: 40px;
+}
+video{
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block
+}
+.wow a {
+  text-decoration: none;
+  text-align: center;
+  font-family: Montserrat-Bold;
+}
+.wow {
+  margin-bottom: 50px;
+}
+footer {
+  background-color: rgb(68, 68, 68);
+  height: 90px;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+footer img {
+  width: 150px;
+}
+footer p {
+  color: #fff;
+  font-size: 22px;
+  font-family: Montserrat-Medium;
+}
+footer a{
+    color: #fff;
+    font-size: 22px;
+}
+footer a:hover {
+  color: rgb(117, 117, 117)
+}
